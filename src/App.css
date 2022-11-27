@@ -74,6 +74,25 @@ html, body {
 }
 
 .email_btn {
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+    gap: 8px;
+
+    position: absolute;
+    width: 247px;
+    height: 34px;
+    left: 151px;
+    top: 469px;
+
+    /* white */
+
     background: #FFFFFF;
     /* gray/300 */
 
@@ -83,13 +102,171 @@ html, body {
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
     border-radius: 6px;
 
+
+}
+
+.email_btn > img {
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    top: 15%;
+    bottom: 15%;
+    width: 20px;
+    height: 20px;
+}
+
+.email_btn > p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+}
+
+.linkedin_btn {
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+    gap: 8px;
+
     position: absolute;
     width: 115px;
     height: 34px;
-    left: 151px;
+    left: 283px;
     top: 468px;
+
+    background: #5093E2;
+    /* shadow/sm */
+
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+
 }
 
-.App {
+.linkedin_btn > img {
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    top: 15%;
+    bottom: 15%;
+    width: 20px;
+    height: 20px;
+}
 
+.linkedin_btn > p {
+    justify-content: center;
+}
+
+.about_h5 {
+    position: absolute;
+    width: 242.71px;
+    height: 21px;
+    left: 151px;
+    top: 495px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+    color: #F5F5F5;
+}
+
+.about_p {
+    position: absolute;
+    width: 247px;
+    height: 201px;
+    left: 151px;
+    top: 535px;
+    color: #F5F5F5;
+    font-weight: 400px;
+    line-height: 15px;
+    font-size: 10px;
+}
+
+.interest_h5 {
+    position: absolute;
+    width: 242.71px;
+    height: 21px;
+    left: 151px;
+    top: 609px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+    color: #F5F5F5;
+}
+
+.interest_p {
+    position: absolute;
+    width: 247px;
+    height: 61px;
+    left: 151px;
+    top: 650px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 150%;
+    color: #F5F5F5;
+}
+
+.social_container {
+    position: absolute;
+    width: 317px;
+    height: 64px;
+    left: 116px;
+    top: 760px;
+
+    justify-content: space-between;
+
+    background: #161619;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.social_container > img {
+    width: 25px;
+    height: 25px;
+}
+
+.social_container > img:nth-child(1) {
+    position: absolute;
+    left: 15%;
+    top: 35%;
+    bottom: 10%;
+}
+
+.social_container > img:nth-child(2) {
+    position: absolute;
+    left: 30%;
+    top: 35%;
+    bottom: 10%;
+}
+
+.social_container > img:nth-child(3) {
+    position: absolute;
+    left: 45%;
+    top: 35%;
+    bottom: 10%;
+}
+
+.social_container > img:nth-child(4) {
+    position: absolute;
+    left: 60%;
+    top: 35%;
+    bottom: 10%;
+}
+
+.social_container > img:nth-child(5) {
+    position: absolute;
+    left: 75%;
+    top: 35%;
+    bottom: 10%;
 }

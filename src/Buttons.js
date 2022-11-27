@@ -5,8 +5,10 @@ export class Buttons extends React.Component {
     render() {
         return(
             <div className="Buttons">
-                <button className="email_btn"></button>
-                <button className="linkedin_btn"></button>
+                <button className="email_btn">
+                    <img src={email} alt="Email"/>
+                    <p>Email</p>
+                </button>
             </div>
         )
     }
